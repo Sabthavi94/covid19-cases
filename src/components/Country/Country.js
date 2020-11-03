@@ -9,7 +9,7 @@ const Country = (props) => {
             <div>
                 <p>{`Active : ${props.stats.Active}`}</p>
                 <p>{`Confirmed : ${props.stats.Confirmed}`}</p>
-                <p>{`Death : ${props.stats.Death}`}</p>
+                <p>{`Death : ${props.stats.Deaths}`}</p>
                 <p>{`Recovered : ${props.stats.Recovered}`}</p>
             </div>
         </div>
